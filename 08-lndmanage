@@ -1,0 +1,7 @@
+#!/bin/bash
+#https://github.com/bitromortac/lndmanage
+
+echo 'lndmanage: init'
+cd '~/lndmanage'
+source 'venv/bin/activate'
+lndmanage listchannels hygiene
